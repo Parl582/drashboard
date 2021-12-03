@@ -1,0 +1,16 @@
+.charts{
+    width: 100%;
+    margin: 10px;
+
+}
+.charts_heading{
+    padding: 20px;
+    box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.75);
+
+}
+
+.charts_heading p{
+    margin-bottom: 30px;
+}

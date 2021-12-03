@@ -1,0 +1,30 @@
+
+.Main_newuserComtainer{
+    padding: 10px;
+
+}
+.newUser_details{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    justify-content: space-around;
+}
+
+   
+.image_container{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin: 5px;
+   
+}
+
+.image_container img{
+
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 999px;
+}
+.viewUsersetails{
+    cursor: pointer;
+}

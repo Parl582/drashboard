@@ -1,0 +1,24 @@
+
+
+.card_wrapper{
+    width: 200px;
+    height:100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: rgb(212, 212, 212);
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    
+     
+    box-shadow: -14px 14px 16px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -14px 14px 16px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -14px 14px 16px -9px rgba(0,0,0,0.75);
+}
+
+.card_wrapper h4{
+    padding: 30px;
+}

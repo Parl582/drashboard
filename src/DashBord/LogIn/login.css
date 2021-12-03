@@ -1,0 +1,47 @@
+.Main_c{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inm{
+    /* display: flex; */
+    padding: 10px;
+    background-color: white;
+    outline: none;
+}
+.btn_kog{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.create{
+    margin-left: 20px;
+}
+.inm input{
+    margin-top: 10px;
+    outline: none;
+    padding: 8px 30px;
+}
+.btn_kog button{
+    margin-left: 20px;
+    padding: 5px 16px;
+    background-color: rgb(68, 194, 68);
+    border-radius: 8px;
+
+}
+.cont h1{
+    font-size: 1.4rem;
+    font-weight: 800;
+    /* letter-spacing: 5px; */
+}
+.cont h1> span{
+    color: red;
+}

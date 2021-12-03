@@ -1,0 +1,106 @@
+.side_menu{
+    position: sticky;
+    /* position: absolute; */
+    background-color: #464343;
+    flex: 1;
+    height:calc(100vh - 70px);
+    color: #fff;
+    padding: 0 20px;
+    top: 80px;
+}
+
+.top_section{
+    padding: 10px ;
+    height: auto;
+}
+.Search_option{
+    background-color: #606161; 
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+}
+.Search_option input{
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+}
+.Search_icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ .heading{
+     padding: 10px 0;
+     border-top: 0.5px solid gray;
+
+     color: #8a8787;
+ }
+
+
+ /*======================= Collapsmenu- Components styling ======================= */
+ .Collapsmenu{
+     display: flex;
+     align-items: center;
+     padding: 8px;
+     cursor: pointer;
+     position: relative;
+ }
+ .Submenu{
+     margin-left: 30px;
+     max-height: 0;
+     overflow: hidden;
+     transition:max-height 0.4s ease-in-out;
+
+ }
+ .Submenu li{
+     margin-left: 10px;
+     padding: 5px 20px;
+     list-style: none;
+     cursor: pointer;
+     border-left: 1px solid rgb(172, 168, 168);
+     font-weight: 200;
+ }
+ .Submenu li:hover{
+    background-color: #575757;
+    
+ }
+ .header_Icon{
+     margin-right: 8px;
+ }
+ .header_Icons{
+    display: flex;
+    position: absolute;
+    right: 30px;  
+   
+}
+.Collapsmenu:hover{
+    background-color: #575757;
+
+}
+
+.active{
+    max-height: 200px;
+
+}
+.all_links  >p{
+    /* text-decoration: none; */
+    color: white;
+}
+.text > Link{
+    text-decoration: none;
+    background-color: white;
+}
+@media screen and (max-width: 760px){
+    .side_menu{
+        /* display: none; */
+    }
+
+}
+
+

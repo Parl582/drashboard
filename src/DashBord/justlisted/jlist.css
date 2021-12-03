@@ -1,0 +1,29 @@
+.Listed_container{
+    flex: 6;
+}
+
+.imagesAvt{
+    display: flex;
+    align-items: center;
+}
+.imagesAvt img{
+
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 999px;
+}
+.userListedit{
+    cursor: pointer;
+    margin-left: 20px;
+}
+.userListedit {
+    background-color: green;
+    color: white;
+    margin-right: 20px;
+}
+.Delete_items{
+    /* background-color: red; */
+    color: #c70707;
+    cursor: pointer;
+}

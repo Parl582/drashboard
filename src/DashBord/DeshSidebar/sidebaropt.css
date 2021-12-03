@@ -1,0 +1,17 @@
+.deshbord{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.deshbord p{
+    
+    font-weight: 200;
+    font: 0.8em sans-serif;
+    position: relative;
+    width: 100%;
+}
+.deshbord:hover{
+    background-color: #575757;
+  
+}

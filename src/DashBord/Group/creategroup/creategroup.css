@@ -1,0 +1,39 @@
+.cgp{
+    flex: 6;
+    padding: 50px;
+}
+.mgp{
+
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+
+}
+.dts input{
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 500px;
+    border: 0;
+    border-bottom: 1px solid #cfcece;
+    outline: none;
+    background-color: transparent;
+}
+.filesvgp{
+    margin: 10px;
+}
+.dts h1{
+    color: rgb(70, 68, 68);
+}
+.filesvgp button{
+    /* width: 88px; */
+    padding: 5px 20px;
+    color: rgb(216, 216, 224);
+    background-color: rgb(74, 74, 253);
+    border-radius: 7px;
+}
+
+.allgroupcontainer{
+    flex: 6;
+}

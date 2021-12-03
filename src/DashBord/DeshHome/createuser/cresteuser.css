@@ -1,0 +1,30 @@
+.newuser_container{
+    flex: 6;
+    padding: 50px;
+   
+}
+.inputs{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+
+}
+.file_input{
+    margin: 20px 10px;
+}
+.inputs > input{
+    padding: 10px 20px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+}
+.btn1{
+    padding: 8px 20px;
+    background-color: turquoise;
+    border-radius: 8px;
+    border: 1px solid rgb(182, 181, 181);
+    cursor: pointer;
+
+}
